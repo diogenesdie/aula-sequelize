@@ -6,9 +6,9 @@ const { Sequelize } = require('sequelize');
 //tpk2022=nome do database
 //rodjle=usuario
 //senha=88*[]]$goRSpo##?xx  //cuidado , dados sensiveis
-const database = new Sequelize('tpk2022','rodjle','88*[]]$goRSpo##?xx',{
+const database = new Sequelize('tarefa_crud','diogenes','Di21072002@',{
     dialect:'mysql',
-    host:'rodjlemysql.mysql.database.azure.com',
+    host:'tarefacrud.mysql.database.azure.com',
     port:'3306'
 }); // Example for mysql
 
